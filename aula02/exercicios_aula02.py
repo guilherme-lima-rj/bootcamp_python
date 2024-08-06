@@ -1,10 +1,40 @@
 # #### Inteiros (`int`)
 
 # 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
-# 2. Crie um programa que receba um número do usuário e calcule o resto da divisão desse número por 5.
-# 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e mostre o resultado.
+
+# num_1 = int(input("Digite um número inteiro: "))
+# num_2 = int(input("Digite outro número inteiro: "))
+# soma = num_1 + num_2
+# print(f"A soma dos números {num_1} e {num_2} é {soma}")
+
+# 2. Crie um programa que receba um número do usuário e calcule o resto da 
+# divisão desse número por 5.
+
+# CONSTANTE_DIVISAO = 5 
+# num_1 = int(input("Digite um número: "))
+# resto_divisao = num_1 % CONSTANTE_DIVISAO
+# print(f"O resto da divisão de {num_1} por {CONSTANTE_DIVISAO} é {resto_divisao}")
+
+# 3. Desenvolva um programa que multiplique dois números fornecidos pelo usuário e 
+# mostre o resultado.
+
+# num_1 = int(input("Digite um número inteiro: "))
+# num_2 = int(input("Digite outro número inteiro: "))
+# multiplicacao = num_1 * num_2
+# print(f"A multiplicação dos números {num_1} e {num_2} é {multiplicacao}")
+
 # 4. Faça um programa que peça dois números inteiros e imprima a divisão inteira do primeiro pelo segundo.
+
+# num_1 = int(input("Digite um número inteiro: "))
+# num_2 = int(input("Digite outro número inteiro: "))
+# divisao = num_1 // num_2
+# print(f"A divisão inteira dos números {num_1} e {num_2} é {divisao}")
+
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
+
+num_1 = int(input("Digite um número: "))
+quadrado = num_1  ** 2
+print(f"O quadrado de {num_1} é {quadrado}")
 
 # #### Números de Ponto Flutuante (`float`)
 
