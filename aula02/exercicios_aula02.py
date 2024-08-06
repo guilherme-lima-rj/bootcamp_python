@@ -155,7 +155,77 @@ import math
 # #### try-except e if
 
 # 21: Conversor de Temperatura
+
+# try:
+#     temp_celsius = float(input("Digite uma temperatura em Celsius: "))
+#     temp_fahrenheit = temp_celsius * 1.8 + 32
+#     temp_fahrenheit_arredondada = round(temp_fahrenheit,2)
+#     print(f"A temperatura {temp_celsius} graus Celsius é igual a {temp_fahrenheit_arredondada} graus Fahreinheit.")
+# except:
+#     print("Digite um número para que haja conveersão.")
+
 # 22: Verificador de Palíndromo
+
+# try:
+#     string_1 = input("Digite uma palavra ou frase: ")
+#     string_2 = string_1.replace(" ","")
+#     string_3 = string_2.replace(".","")
+#     string_4 = string_3.replace(",","")
+#     string_reversa = string_4[::-1]
+#     resultado = string_4 == string_reversa
+#     print(f"É Palíndromo? {resultado}")
+# except:
+#     print("Digite uma palavra ou frase.")
+
 # 23: Calculadora Simples
+
+# try:
+#     num_1 = int(input("Digite um número: "))
+#     num_2 = int(input("Digite outro número: "))
+#     op = str(input("Digite um dos seguintes operadores (+, -, *, /): "))
+#     if op == "+":
+#         resultado = num_1 + num_2
+#         print(f"O resultado da soma é: {resultado}")
+#     elif op == "-":
+#         resultado = num_1 - num_2
+#         print(f"O resultado da subtração é: {resultado}")
+#     elif op == "*":
+#         resultado = num_1 * num_2
+#         print(f"O resultado da multiplicação é: {resultado}")
+#     elif op == "/":
+#         resultado = num_1 / num_2
+#         print(f"O resultado da divisão é: {resultado}")
+# except ZeroDivisionError:
+#     print("Não é possível dividir um número por zero.")
+# except:    
+#     print("Digite uma entrada válida.")
+
 # 24: Classificador de Números
+
+# try:
+#     num = int(input("Digite um número: "))
+#     if num == 0:
+#         print ("Zero.")
+#     elif num > 0:
+#         if (num % 2) ==  0:
+#             print ("Positivo e Par.")
+#         else:
+#             print ("Positivo e Ímpar.")
+#     else:
+#         print ("Negativo.")
+# except:
+#     print("Entrada inválida!")
+
 # 25: Conversão de Tipo com Validação
+
+
+# lista = input("Digite uma lista de números separados por vírgula: ")
+# lista_str = lista.split(",")
+# lista_int=[]
+
+# try:
+#     for item in lista_str:
+#         lista_int.append(int(item.strip()))
+#     print(f"Lista de inteiros: {lista_int}.")
+# except:
+#     print("Digite apenas números e vírgulas.")    
