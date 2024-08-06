@@ -1,3 +1,5 @@
+import math
+
 # #### Inteiros (`int`)
 
 # 1. Escreva um programa que soma dois números inteiros inseridos pelo usuário.
@@ -32,17 +34,46 @@
 
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
 
-num_1 = int(input("Digite um número: "))
-quadrado = num_1  ** 2
-print(f"O quadrado de {num_1} é {quadrado}")
+# num_1 = int(input("Digite um número: "))
+# quadrado = num_1  ** 2
+# print(f"O quadrado de {num_1} é {quadrado}")
 
 # #### Números de Ponto Flutuante (`float`)
 
 # 6. Escreva um programa que receba dois números flutuantes e realize sua adição.
+
+# num_1 = float(input("Digite um número: "))
+# num_2 = float(input("Digite outro número: "))
+# soma = num_1 + num_2
+# print(f"A soma dos números {num_1} e {num_2} é {soma}")
+
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
-# 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
+
+# num_1 = float(input("Digite um número: "))
+# num_2 = float(input("Digite outro número: "))
+# media = (num_1 + num_2) / 2 
+# print(f"A média dos números {num_1} e {num_2} é {media}")
+
+# 8. Desenvolva um programa que calcule a potência de um número 
+# (base e expoente fornecidos pelo usuário).
+
+# num_1 = float(input("Digite um número: "))
+# num_2 = float(input("Digite um número expoente: "))
+# potencia = num_1 ** num_2
+# print(f"O número {num_1} elevado a {num_2} é {potencia}")
+
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+
+# temp_celsius = float(input("Digite uma temperatura em Celsius: "))
+# temp_fahrenheit = temp_celsius * 1.8 + 32
+# temp_fahrenheit_arredondada = round(temp_fahrenheit,2)
+# print(f"A temperatura {temp_celsius} graus Celsius é igual a {temp_fahrenheit_arredondada} graus Fahreinheit.")
+
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
+
+# raio = float(input("Digite um valor para o Raio do círculo: "))
+# area = math.pi * raio ** 2
+# print(f"A área  de um círculo com {raio} é de {area}.")
 
 # #### Strings (`str`)
 
