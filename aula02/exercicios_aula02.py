@@ -110,16 +110,47 @@ import math
 
 # str_1 = input("Digite uma string: ")
 # str_2 = input("Digite uma outra string: ")
-# str_3 = str_1 + " " + str_2
+# str_3 = str_1 + str_2
 # print(str_3)
 
 # #### Booleanos (`bool`)
 
-# 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo usuário e retorne o resultado da operação AND entre elas.
-# 17. Crie um programa que receba dois valores booleanos do usuário e retorne o resultado da operação OR.
-# 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano e, em seguida, inverta esse valor.
+# 16. Escreva um programa que avalie duas expressões booleanas inseridas pelo 
+# usuário e retorne o resultado da operação AND entre elas.
+
+# exp_1 = bool(input("Digite 'True' ou 'False': "))
+# exp_2 = bool(input("Digite 'True' ou 'False': "))
+# resultado = exp_1 and exp_2 
+# print("Resultado do AND lógico:", resultado)
+
+# 17. Crie um programa que receba dois valores booleanos do usuário e retorne
+#  o resultado da operação OR.
+
+# exp_1 = bool(input("Digite 'True' ou 'False': "))
+# exp_2 = bool(input("Digite 'True' ou 'False': "))
+# resultado = exp_1 or exp_2 
+# print("Resultado do OR lógico:", resultado)
+
+# 18. Desenvolva um programa que peça ao usuário para inserir um valor booleano
+#  e, em seguida, inverta esse valor.
+
+# exp_1 = bool(input("Digite 'True' ou 'False': "))
+# resultado_invertido = not exp_1
+# print("Resultado do OR lógico: ", resultado_invertido)
+
 # 19. Faça um programa que compare se dois números fornecidos pelo usuário são iguais.
+
+# num_1 = input("Digite um número: ")
+# num_2 = input("Digite outro número: ")
+# igualdade = num_1 == num_2
+# print(f"O resultado da igualdade é: {igualdade}")
+
 # 20. Escreva um programa que verifique se dois números fornecidos pelo usuário são diferentes.
+
+# num_1 = input("Digite um número: ")
+# num_2 = input("Digite outro número: ")
+# diferenca = num_1 != num_2
+# print(f"O resultado da diferença é: {diferenca}")
 
 # #### try-except e if
 
